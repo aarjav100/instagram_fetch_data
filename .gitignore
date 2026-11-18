@@ -1,0 +1,52 @@
+# Secrets and Credentials (CRITICAL - DO NOT COMMIT)
+.env
+*.env
+backend/.env
+frontend/.env
+*.json
+!package.json
+!frontend/package.json
+!backend/package.json
+!tsconfig.json
+!frontend/tsconfig.json
+token.json
+backend/token.json
+credentials.json
+backend/credentials.json
+credential.json
+backend/credential.json
+
+# Python Virtual Environments
+venv/
+.venv/
+backend/venv/
+backend/.venv/
+env/
+ENV/
+*.pyc
+__pycache__/
+backend/**/__pycache__/
+.pytest_cache/
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+influencer_crm.db
+backend/influencer_crm.db
+
+# Node dependencies and build artifacts
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+.vite/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
